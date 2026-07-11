@@ -1,0 +1,21 @@
+/* hero */
+
+.about-hero__title .about-hero__text {
+  text-align: center;
+}
+
+.about-story {
+  padding-top: 0;
+  background-color: var(--color-bg-light);
+}
+
+@media (min-width: 768px) {
+  .about-hero__title {
+    align-self: center;
+    text-align: center;
+  }
+
+  .about-hero__text {
+    text-align: center;
+  }
+}

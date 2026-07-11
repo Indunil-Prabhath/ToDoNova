@@ -1,0 +1,110 @@
+/* Hero*/
+.coming-soon-hero {
+  background-color: var(--color-bg-white);
+}
+
+.hero__visual-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  width: 100%;
+}
+
+.coming-soon__badge {
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .coming-soon__badge {
+    align-self: self-start;
+  }
+}
+
+/* ===== Coming Soon Hero: development status card ===== */
+.status-card__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.status-card__label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--color-body);
+  text-transform: uppercase;
+}
+
+.status-card__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+  padding-block: 1.6rem;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.status-card__row-label {
+  color: var(--color-body);
+  font-weight: 500;
+}
+
+.status-card__stage {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: var(--color-heading);
+  font-weight: 600;
+}
+
+.status-card__stage svg {
+  flex-shrink: 0;
+  width: 1.8rem;
+  height: 1.8rem;
+  fill: var(--color-primary);
+}
+
+.status-card__note {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 1.6rem;
+  border-radius: 1.2rem;
+  background: var(--color-primary-light);
+}
+
+/* ===== Coming Soon closing CTA: newsletter row ===== */
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 46rem;
+  margin-inline: auto;
+}
+
+@media (min-width: 640px) {
+  .subscribe-form {
+    flex-direction: row;
+  }
+
+  .subscribe-form .input {
+    flex: 1;
+  }
+
+  .status-card__header {
+    flex-direction: row;
+    grid: 1.6rem;
+  }
+}
+
+/* ===== Coming Soon closing CTA: quick links row ===== */
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem 2.4rem;
+}

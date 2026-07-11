@@ -1,0 +1,52 @@
+.pricing-hero__title {
+  text-align: center;
+}
+
+.pricing-plans {
+  align-items: start;
+}
+
+.pricing-plans__price {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--color-heading);
+}
+
+.pricing-plans__bold-text {
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-body);
+}
+
+.pricing-plans__features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.pricing-plan-card .card__body {
+  color: var(--color-heading);
+}
+
+.pricing-plans__price {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.pricing-plans__note {
+  text-align: center;
+  margin-top: 3.2rem;
+}
+
+@media (min-width: 768px) {
+  .pricing-hero__title {
+    align-self: center;
+    text-align: center;
+  }
+
+  .pricing-hero__text {
+    text-align: center;
+  }
+}

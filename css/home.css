@@ -1,0 +1,182 @@
+/* hero */
+.home-hero {
+  background-color: var(--color-bg-light);
+}
+
+.home-hero .badge {
+  align-self: center;
+}
+
+.home-hero .hero__actions {
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-hero .badge {
+    align-self: self-start;
+  }
+}
+
+/* Feature Card (What Makes ToDoNova Different?) */
+.feature-card {
+  gap: 1.2rem;
+}
+
+.feature-card .card__header {
+  gap: 2rem;
+}
+
+.feature-card__title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-heading);
+}
+
+@media screen and (min-width: 1024px) {
+  .feature-card--wide {
+    grid-column: span 2;
+  }
+}
+
+.icon__image--sky {
+  fill: #0ea5e9;
+}
+
+.section-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  margin-top: 6.4rem;
+  text-align: center;
+}
+
+/* Add after the existing rules in css/home.css */
+.feature-showcase {
+  overflow: hidden;
+}
+
+.feature-showcase__intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: center;
+  gap: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.feature-showcase__copy {
+  max-width: 48rem;
+}
+
+.feature-showcase__number {
+  color: var(--color-primary);
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.feature-showcase__visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 22rem;
+}
+
+.feature-showcase__visual img {
+  display: block;
+  width: 100%;
+  max-width: 54rem;
+  height: auto;
+  filter: drop-shadow(0 1.4rem 2.4rem rgba(17, 24, 39, 0.1));
+}
+
+.feature-showcase__benefits {
+  gap: 1.6rem;
+}
+
+.feature-showcase .feature-card {
+  gap: 1.2rem;
+  min-height: 100%;
+  padding: 2rem;
+}
+
+.feature-showcase .feature-card__title {
+  font-size: 1.6rem;
+  line-height: 1.25;
+}
+
+.feature-showcase .feature-card p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.feature-showcase__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+  margin-top: 2.4rem;
+  padding-top: 2.4rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.feature-showcase__footer p {
+  max-width: 80rem;
+  font-size: 1.5rem;
+  color: var(--color-body);
+}
+
+.feature-showcase__footer strong {
+  color: var(--color-heading);
+}
+
+.feature-showcase__footer .btn {
+  min-height: 4.4rem;
+  padding-inline: 1.8rem;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 768px) {
+  .feature-showcase__footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  .feature-showcase__intro {
+    grid-template-columns: minmax(0, 0.88fr) minmax(0, 1.12fr);
+    gap: 6.4rem;
+    margin-bottom: 4.8rem;
+  }
+
+  .feature-showcase__intro--reverse .feature-showcase__copy {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .feature-showcase__intro--reverse .feature-showcase__visual {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .feature-showcase__visual {
+    min-height: 31rem;
+  }
+}
+
+/* See ToDoNova in Action */
+.showcase__cards {
+  margin-top: 4.8rem;
+}
+
+.showcase__description {
+  max-width: none;
+}
+
+@media (min-width: 1024px) {
+  .showcase__cards {
+    margin-top: 6rem;
+  }
+}

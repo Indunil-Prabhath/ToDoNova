@@ -1,0 +1,33 @@
+/* hero */
+.features-hero__title .features-hero__text {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .features-hero__title {
+    align-self: center;
+    text-align: center;
+  }
+
+  .features-hero__text {
+    text-align: center;
+  }
+}
+
+/* Features */
+.feature__grid {
+  gap: 15rem;
+}
+
+.feature__list {
+  margin-top: 6rem;
+}
+
+.feature__image {
+  filter: drop-shadow(0 0 4rem rgba(124, 58, 237, 0.326));
+}
+
+/* callouts */
+.feature-callout__list {
+  margin-top: 4rem;
+}

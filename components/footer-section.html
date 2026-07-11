@@ -1,0 +1,190 @@
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="index.html" class="navbar__logo">
+        <img src="images/logo.png" alt="ToDoNova" class="navbar__logo-img" />
+      </a>
+
+      <p class="footer__text">
+        ToDoNova is a modern task management platform currently under
+        development. This website provides an overview of the product's vision,
+        planned features, and user interface as we prepare for the official
+        launch.
+      </p>
+
+      <div class="footer__social">
+        <a href="#" class="icon icon--sm icon--primary" aria-label="Facebook">
+          <svg class="icon__image icon__image--primary">
+            <use href="images/sprite.svg#facebook"></use>
+          </svg>
+        </a>
+        <a href="#" class="icon icon--sm icon--primary" aria-label="Instagram">
+          <svg class="icon__image icon__image--primary">
+            <use href="images/sprite.svg#instagram"></use>
+          </svg>
+        </a>
+        <a href="#" class="icon icon--sm icon--primary" aria-label="GitHub">
+          <svg class="icon__image icon__image--primary">
+            <use href="images/sprite.svg#github"></use>
+          </svg>
+        </a>
+        <a href="#" class="icon icon--sm icon--primary" aria-label="LinkedIn">
+          <svg class="icon__image icon__image--primary">
+            <use href="images/sprite.svg#linkedin"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Accordion on mobile, plain 4-column grid on desktop (see .footer__accordion CSS) -->
+    <div class="collapsible footer__accordion collapsible--independent">
+      <div class="collapsible__item">
+        <button
+          class="collapsible__header"
+          type="button"
+          aria-expanded="false"
+          aria-controls="footer-panel-links"
+        >
+          <span class="collapsible__title">Quick Links</span>
+          <span class="collapsible__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </span>
+        </button>
+
+        <div class="collapsible__panel" id="footer-panel-links">
+          <div class="collapsible__content">
+            <nav class="footer__links" aria-label="Quick Links">
+              <a href="index.html" class="navbar__link">Home</a>
+              <a href="about.html" class="navbar__link">About</a>
+              <a href="features.html" class="navbar__link">Features</a>
+              <a href="pricing.html" class="navbar__link">Pricing</a>
+              <a href="contact.html" class="navbar__link">Contact</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="collapsible__item">
+        <button
+          class="collapsible__header"
+          type="button"
+          aria-expanded="false"
+          aria-controls="footer-panel-resources"
+        >
+          <span class="collapsible__title">Resources</span>
+          <span class="collapsible__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </span>
+        </button>
+
+        <div class="collapsible__panel" id="footer-panel-resources">
+          <div class="collapsible__content">
+            <nav class="footer__links" aria-label="Resources">
+              <a href="coming-soon.html" class="navbar__link">Coming Soon</a>
+              <a href="#" class="navbar__link">FAQ</a>
+              <a href="#" class="navbar__link">Privacy Policy</a>
+              <a href="#" class="navbar__link">Terms &amp; Conditions</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="collapsible__item">
+        <button
+          class="collapsible__header"
+          type="button"
+          aria-expanded="false"
+          aria-controls="footer-panel-contact"
+        >
+          <span class="collapsible__title">Contact Info</span>
+          <span class="collapsible__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </span>
+        </button>
+
+        <div class="collapsible__panel" id="footer-panel-contact">
+          <div class="collapsible__content">
+            <div class="footer__contact-list">
+              <div class="check-item">
+                <span class="check-item__icon"
+                  ><svg><use href="images/sprite.svg#envolope"></use></svg
+                ></span>
+                <a href="mailto:hello@todonova.com" class="navbar__link"
+                  >hello@todonova.com</a
+                >
+              </div>
+              <div class="check-item">
+                <span class="check-item__icon"
+                  ><svg><use href="images/sprite.svg#phone"></use></svg
+                ></span>
+                <span>+94 XX XXX XXXX</span>
+              </div>
+              <div class="check-item">
+                <span class="check-item__icon"
+                  ><svg><use href="images/sprite.svg#location"></use></svg
+                ></span>
+                <span>Colombo, Sri Lanka</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="collapsible__item is-open">
+        <button
+          class="collapsible__header"
+          type="button"
+          aria-expanded="true"
+          aria-controls="footer-panel-newsletter"
+        >
+          <span class="collapsible__title">Newsletter</span>
+          <span class="collapsible__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </span>
+        </button>
+
+        <div class="collapsible__panel" id="footer-panel-newsletter">
+          <div class="collapsible__content">
+            <p class="footer__text">
+              Stay informed about ToDoNova's development and upcoming launches.
+            </p>
+
+            <form class="footer__newsletter">
+              <input
+                type="email"
+                class="input"
+                placeholder="Enter your email"
+                aria-label="Email address"
+              />
+              <button type="submit" class="btn btn--primary btn--block">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <p>&copy; 2026 ToDoNova. All rights reserved.</p>
+
+    <div class="footer__legal">
+      <a href="#" class="navbar__link">Privacy Policy</a>
+      <a href="#" class="navbar__link">Terms &amp; Conditions</a>
+    </div>
+  </div>
+</footer>
+<script src="js/collapcible.js"></script>

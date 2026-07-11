@@ -1,0 +1,724 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/logo-m.png" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container navbar__inner">
+        <a href="index.html" class="navbar__logo">
+          <img src="images/logo.png" alt="ToDoNova" class="navbar__logo-img" />
+        </a>
+
+        <nav class="navbar__nav" id="navbarNav">
+          <a href="index.html" class="navbar__link">Home</a>
+          <a href="about.html" class="navbar__link">About</a>
+          <a href="features.html" class="navbar__link">Features</a>
+          <a href="pricing.html" class="navbar__link">Pricing</a>
+          <a href="contact.html" class="navbar__link is-active">Contact</a>
+          <a href="coming-soon.html" class="navbar__link">Coming Soon</a>
+
+          <a
+            href="coming-soon.html"
+            class="btn btn--primary navbar__cta navbar__cta--mobile"
+            >Get Started</a
+          >
+        </nav>
+
+        <a
+          href="coming-soon.html"
+          class="btn btn--primary navbar__cta navbar__cta--desktop"
+          >Get Started</a
+        >
+
+        <button
+          class="navbar__toggle"
+          id="navbarToggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <img src="images/menu.svg" alt="" class="navbar__toggle-icon" />
+          <span class="navbar__toggle-x"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="hero hero--split contact-hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="badge badge--hero conatct-badge">Get in Touch</span>
+
+          <h1 class="hero__title">
+            We'd Love to <span class="text-gradient">Hear<br />From You</span>
+          </h1>
+
+          <p class="hero__text">
+            At ToDoNova, we are redefining how individuals and teams organize
+            their day, prioritize goals, and stay in alignment. Our mission is
+            to build the ultimate, distraction-free productivity workspace that
+            molds itself to your unique cognitive style.
+          </p>
+
+          <p class="hero__text">
+            We believe great software is co-created with the community. Whether
+            you have a feature request, a question about our roadmap, or want to
+            share your experience, your voice directly shapes our development
+            cycles.
+          </p>
+
+          <div>
+            <p class="hero__list-title">HOW CAN WE HELP?</p>
+            <div class="hero__list">
+              <div class="check-item">
+                <span class="check-item__icon"
+                  ><svg><use href="images/sprite.svg#complete"></use></svg
+                ></span>
+                Custom Integration Requests
+              </div>
+              <div class="check-item">
+                <span class="check-item__icon"
+                  ><svg><use href="images/sprite.svg#complete"></use></svg
+                ></span>
+                Early Access Roadmaps
+              </div>
+              <div class="check-item">
+                <span class="check-item__icon"
+                  ><svg><use href="images/sprite.svg#complete"></use></svg
+                ></span>
+                Bug &amp; UI Issue Reports
+              </div>
+              <div class="check-item">
+                <span class="check-item__icon"
+                  ><svg><use href="images/sprite.svg#complete"></use></svg
+                ></span>
+                Enterprise &amp; Team Inquiries
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__actions">
+            <a href="#info" class="btn btn--primary">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <img
+            src="images/contact.jpg"
+            alt="ToDoNova support illustration"
+            class="hero__image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Send Us a Message -->
+    <section class="section section--light message" id="msg">
+      <div class="container">
+        <div class="card card--light">
+          <div class="card__header">
+            <h2>Send Us a <span class="text-gradient">Message</span></h2>
+            <p class="block__text">
+              Have a question, feedback, or a brilliant feature request? Fill
+              out the form below, and our team will get back to you within 24
+              hours.
+            </p>
+          </div>
+
+          <form class="card__body">
+            <div class="grid grid--1x2">
+              <div class="form-group">
+                <label for="full-name" class="form-label sr-only"
+                  >Full Name</label
+                >
+                <input
+                  type="text"
+                  id="full-name"
+                  name="full-name"
+                  class="input"
+                  placeholder="Full Name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label sr-only"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="input"
+                  placeholder="Email Address"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject" class="form-label sr-only">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                class="input"
+                placeholder="What would you like to talk about?"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label sr-only">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                class="input input--textarea"
+                placeholder="Write your message here..."
+                required
+              ></textarea>
+            </div>
+
+            <label class="form-checkbox">
+              <input
+                type="checkbox"
+                id="consent"
+                name="consent"
+                class="form-checkbox__input"
+                required
+              />
+              <span class="form-checkbox__label">
+                I understand that ToDoNova is currently under development, and
+                my message will be used to help improve the project.
+              </span>
+            </label>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn--primary">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="section section--white" id="info">
+      <div class="container">
+        <header class="section-header section-header--left">
+          <h2 class="section-header__title">
+            Contact <span class="text-gradient">Information</span>
+          </h2>
+          <p class="section-header__description">
+            Get in touch with us through other channels, find out where we are
+            based, or stay up to date with our project milestones.
+          </p>
+        </header>
+
+        <div class="grid grid--1x3 contact-cards">
+          <article class="card card--muted card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image">
+                  <use href="images/sprite.svg#envolope"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">Email</h3>
+              <p class="block__text">
+                Drop us a email anytime. We respond to every email directly.
+              </p>
+              <a href="mailto:hello@todonova.com" class="navbar__link"
+                >hello@todonova.com</a
+              >
+            </div>
+          </article>
+
+          <article class="card card--muted card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image">
+                  <use href="images/sprite.svg#location"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">Location</h3>
+              <p class="block__text">Colombo, Sri Lanka</p>
+            </div>
+          </article>
+
+          <article class="card card--muted card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image icon__image--dark">
+                  <use href="images/sprite.svg#clock"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">Availability</h3>
+              <p class="block__text">
+                Monday &ndash; Friday, 9:00 AM &ndash; 5:00 PM (Local Time).
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="card card--muted callout">
+          <div class="callout__content">
+            <div>
+              <h4 class="block__title">Have a quick question?</h4>
+              <p class="block__text">
+                Feel free to message us directly using our form above.
+              </p>
+            </div>
+          </div>
+
+          <div class="callout__actions">
+            <a href="#msg" class="btn btn--primary">Send a Message</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Contact ToDoNova -->
+    <section class="section section--light">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-header__title">
+            Why Contact <span class="text-gradient">ToDoNova?</span>
+          </h2>
+          <p class="section-header__description">
+            We are building a community-first productivity ecosystem. Here is
+            why getting in touch makes a difference.
+          </p>
+        </header>
+
+        <div class="grid grid--1x4">
+          <article class="card card--light card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image">
+                  <use href="images/sprite.svg#feedback"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">Share Your Ideas</h3>
+              <p class="block__text">
+                We directly implement user feedback into our core product cycle.
+                Your idea could become our next major release.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--light card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image">
+                  <use href="images/sprite.svg#issues"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">Report Website Issues</h3>
+              <p class="block__text">
+                Encountered a glitch or visual bug? Let us know, and we'll
+                squash it immediately to ensure a seamless experience.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--light card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image">
+                  <use href="images/sprite.svg#question-mark"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">Ask Questions</h3>
+              <p class="block__text">
+                Curious about security, pricing, roadmaps, or early beta access?
+                We're happy to answer all your technical questions.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--light card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image">
+                  <use href="images/sprite.svg#rocket"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">Help Shape the Future</h3>
+              <p class="block__text">
+                Be a pioneer in the next generation of productivity. Join user
+                focus groups and direct product design workshops.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="card card--muted callout">
+          <div class="callout__content">
+            <span class="icon icon--primary">
+              <svg class="icon__image">
+                <use href="images/sprite.svg#security"></use>
+              </svg>
+            </span>
+            <div>
+              <h4 class="block__title">Our Commitment</h4>
+              <p class="block__text">
+                We value every message we receive. Our team reviews all
+                suggestions, feedback, and requests carefully as we continue
+                developing ToDoNova.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero--center section-quote">
+          <div class="hero__inner">
+            <p class="block__text">
+              Have something specific to share with our engineering team?
+            </p>
+
+            <div class="hero__actions">
+              <a href="#msg" class="btn btn--primary">Send a Message</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Thank You for Connecting -->
+    <section class="section section--white">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-header__title">
+            Thank You for Connecting with
+            <span class="text-gradient">ToDoNova</span>
+          </h2>
+          <p class="section-header__description">
+            Your feedback fuels our innovation. We are incredibly grateful to
+            have you as part of our journey as we design, refine, and ship the
+            future of team task orchestration.
+          </p>
+        </header>
+
+        <!-- Our Promise / Stay Connected -->
+        <div class="grid grid--1x2">
+          <article class="card card--muted">
+            <div class="card__body">
+              <h3 class="block__title">Our Promise</h3>
+              <p class="block__text">
+                We respect your inbox and your privacy. We will never sell your
+                information, spam you with newsletters, or use your feedback for
+                anything other than improving the ToDoNova platform.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--muted">
+            <div class="card__body">
+              <h3 class="block__title">Stay Connected</h3>
+              <p class="block__text">
+                Keep an eye on your inbox for our response. You can also join
+                our public community forum to chat directly with our developers
+                and other beta users.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <!-- What's Next -->
+        <div class="next-steps">
+          <p class="hero__list-title">WHAT'S NEXT?</p>
+
+          <div class="next-steps__list">
+            <article class="card card--muted card--hoverable">
+              <div class="block block--row">
+                <span class="next-steps__icon">
+                  <svg><use href="images/sprite.svg#eye"></use></svg>
+                </span>
+                <div>
+                  <h4 class="block__title">Explore Our Features</h4>
+                  <p class="block__text">
+                    Take a sneak peek at the tools we're building for you.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="card card--muted card--hoverable">
+              <div class="block block--row">
+                <span class="next-steps__icon">
+                  <svg><use href="images/sprite.svg#roadmap"></use></svg>
+                </span>
+                <div>
+                  <h4 class="block__title">Follow Our Progress</h4>
+                  <p class="block__text">
+                    View our release schedule and developmental milestones.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="card card--muted card--hoverable">
+              <div class="block block--row">
+                <span class="next-steps__icon">
+                  <svg><use href="images/sprite.svg#feedback"></use></svg>
+                </span>
+                <div>
+                  <h4 class="block__title">Share More Feedback</h4>
+                  <p class="block__text">
+                    Submit a quick feature request without the full form.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero--center section-quote">
+          <div class="hero__inner">
+            <div class="hero__actions hero__actions--center">
+              <a href="features.html" class="btn btn--primary"
+                >Explore Features</a
+              >
+              <a href="coming-soon.html" class="btn btn--outline"
+                >Coming Soon</a
+              >
+            </div>
+
+            <p class="hero__note">
+              "Together, We're Building the Future of Productivity."<br />
+              Thank you for being part of the ToDoNova journey.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <img
+              src="images/logo.png"
+              alt="ToDoNova"
+              class="footer__logo-image"
+            />
+          </a>
+
+          <p class="footer__text">
+            ToDoNova is a modern task management platform currently under
+            development. This website provides an overview of the product's
+            vision, planned features, and user interface as we prepare for the
+            official launch.
+          </p>
+
+          <div class="footer__social">
+            <a
+              href="#"
+              class="icon icon--sm icon--primary"
+              aria-label="Facebook"
+            >
+              <svg class="icon__image icon__image--primary">
+                <use href="images/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+            <a
+              href="#"
+              class="icon icon--sm icon--primary"
+              aria-label="Instagram"
+            >
+              <svg class="icon__image icon__image--primary">
+                <use href="images/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+            <a href="#" class="icon icon--sm icon--primary" aria-label="GitHub">
+              <svg class="icon__image icon__image--primary">
+                <use href="images/sprite.svg#github"></use>
+              </svg>
+            </a>
+            <a
+              href="#"
+              class="icon icon--sm icon--primary"
+              aria-label="LinkedIn"
+            >
+              <svg class="icon__image icon__image--primary">
+                <use href="images/sprite.svg#linkedin"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Accordion on mobile, plain 4-column grid on desktop (see .footer__accordion CSS) -->
+        <div class="collapsible footer__accordion collapsible--independent">
+          <div class="collapsible__item">
+            <button
+              class="collapsible__header"
+              type="button"
+              aria-expanded="false"
+              aria-controls="footer-panel-links"
+            >
+              <span class="collapsible__title">Quick Links</span>
+              <span class="collapsible__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+
+            <div class="collapsible__panel" id="footer-panel-links">
+              <div class="collapsible__content">
+                <nav class="footer__links" aria-label="Quick Links">
+                  <a href="index.html" class="navbar__link">Home</a>
+                  <a href="about.html" class="navbar__link">About</a>
+                  <a href="features.html" class="navbar__link">Features</a>
+                  <a href="pricing.html" class="navbar__link">Pricing</a>
+                  <a href="contact.html" class="navbar__link">Contact</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapsible__item">
+            <button
+              class="collapsible__header"
+              type="button"
+              aria-expanded="false"
+              aria-controls="footer-panel-resources"
+            >
+              <span class="collapsible__title">Resources</span>
+              <span class="collapsible__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+
+            <div class="collapsible__panel" id="footer-panel-resources">
+              <div class="collapsible__content">
+                <nav class="footer__links" aria-label="Resources">
+                  <a href="coming-soon.html" class="navbar__link"
+                    >Coming Soon</a
+                  >
+                  <a href="#" class="navbar__link">FAQ</a>
+                  <a href="#" class="navbar__link">Privacy Policy</a>
+                  <a href="#" class="navbar__link">Terms &amp; Conditions</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapsible__item">
+            <button
+              class="collapsible__header"
+              type="button"
+              aria-expanded="false"
+              aria-controls="footer-panel-contact"
+            >
+              <span class="collapsible__title">Contact Info</span>
+              <span class="collapsible__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+
+            <div class="collapsible__panel" id="footer-panel-contact">
+              <div class="collapsible__content">
+                <div class="footer__contact-list">
+                  <div class="check-item">
+                    <span class="check-item__icon"
+                      ><svg><use href="images/sprite.svg#envolope"></use></svg
+                    ></span>
+                    <a href="mailto:hello@todonova.com" class="navbar__link"
+                      >hello@todonova.com</a
+                    >
+                  </div>
+                  <div class="check-item">
+                    <span class="check-item__icon"
+                      ><svg><use href="images/sprite.svg#phone"></use></svg
+                    ></span>
+                    <span>+94 XX XXX XXXX</span>
+                  </div>
+                  <div class="check-item">
+                    <span class="check-item__icon"
+                      ><svg><use href="images/sprite.svg#location"></use></svg
+                    ></span>
+                    <span>Colombo, Sri Lanka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapsible__item is-open">
+            <button
+              class="collapsible__header"
+              type="button"
+              aria-expanded="true"
+              aria-controls="footer-panel-newsletter"
+            >
+              <span class="collapsible__title">Newsletter</span>
+              <span class="collapsible__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+
+            <div class="collapsible__panel" id="footer-panel-newsletter">
+              <div class="collapsible__content">
+                <p class="footer__text">
+                  Stay informed about ToDoNova's development and upcoming
+                  launches.
+                </p>
+
+                <form class="footer__newsletter">
+                  <input
+                    type="email"
+                    class="input"
+                    placeholder="Enter your email"
+                    aria-label="Email address"
+                  />
+                  <button type="submit" class="btn btn--primary btn--block">
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer__bottom">
+        <p>&copy; 2026 ToDoNova. All rights reserved.</p>
+
+        <div class="footer__legal">
+          <a href="#" class="navbar__link">Privacy Policy</a>
+          <a href="#" class="navbar__link">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/collapcible.js"></script>
+    <script src="js/navbar.js"></script>
+  </body>
+</html>

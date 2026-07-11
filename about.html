@@ -1,0 +1,1097 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/logo-m.png" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/about.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container navbar__inner">
+        <a href="index.html" class="navbar__logo">
+          <img src="images/logo.png" alt="ToDoNova" class="navbar__logo-img" />
+        </a>
+
+        <nav class="navbar__nav" id="navbarNav">
+          <a href="index.html" class="navbar__link">Home</a>
+          <a href="about.html" class="navbar__link is-active">About</a>
+          <a href="features.html" class="navbar__link">Features</a>
+          <a href="pricing.html" class="navbar__link">Pricing</a>
+          <a href="contact.html" class="navbar__link">Contact</a>
+          <a href="coming-soon.html" class="navbar__link">Coming Soon</a>
+
+          <a
+            href="coming-soon.html"
+            class="btn btn--primary navbar__cta navbar__cta--mobile"
+            >Get Started</a
+          >
+        </nav>
+
+        <a
+          href="coming-soon.html"
+          class="btn btn--primary navbar__cta navbar__cta--desktop"
+          >Get Started</a
+        >
+
+        <button
+          class="navbar__toggle"
+          id="navbarToggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <img src="images/menu.svg" alt="" class="navbar__toggle-icon" />
+          <span class="navbar__toggle-x"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- About Hero -->
+    <section class="hero hero--center about-hero">
+      <div class="container hero__inner">
+        <span class="badge badge--hero"
+          >ToDoNova is currently under development</span
+        >
+
+        <h1 class="hero__title about-hero__title">
+          About <span class="text-gradient">ToDoNova</span>
+        </h1>
+
+        <p class="hero__text about-hero__text">
+          Building the future of task management with a simple vision: helping
+          individuals and teams stay organized, collaborate effectively, and
+          achieve more through an intuitive productivity platform.
+        </p>
+      </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="section section--white about-story">
+      <div class="container grid grid--1x2" style="align-items: start">
+        <!-- Left: Story card -->
+        <article class="card card--light">
+          <div
+            class="card__header"
+            style="
+              flex-direction: row;
+              align-items: center;
+              gap: 1.2rem;
+              border-left: 0.4rem solid var(--color-primary);
+              padding-left: 1.6rem;
+            "
+          >
+            <h3>Our Story</h3>
+          </div>
+
+          <div class="card__body">
+            <p style="font-weight: 700; color: var(--color-primary)">
+              Every great product begins with an idea.
+            </p>
+
+            <p>
+              ToDoNova was born from the belief that task management should be
+              simple, intuitive, and enjoyable. While many productivity tools
+              offer powerful features, they can often feel overwhelming for
+              users who simply want an organized and efficient workspace.
+            </p>
+
+            <p>
+              Our vision is to create a platform where managing tasks, planning
+              projects, and collaborating with others feels natural. By
+              combining a clean interface with thoughtfully designed features,
+              ToDoNova aims to help users focus less on managing their tools and
+              more on accomplishing their goals.
+            </p>
+
+            <p>
+              Although ToDoNova is still under development, this website offers
+              a preview of the product's vision, design, and planned
+              capabilities. We are committed to building a modern task
+              management experience that is both powerful and easy to use.
+            </p>
+          </div>
+        </article>
+
+        <!-- Right: Mission + Vision cards -->
+        <div class="grid" style="gap: 2.4rem">
+          <article
+            class="card card--primary"
+            style="
+              background: linear-gradient(
+                135deg,
+                var(--color-primary) 0%,
+                var(--color-primary-dark) 100%
+              );
+              backdrop-filter: none;
+              border: none;
+            "
+          >
+            <span class="icon icon--light">
+              <svg class="icon__image">
+                <use href="images/sprite.svg#security"></use>
+              </svg>
+            </span>
+
+            <div class="card__header">
+              <h3>Our Mission</h3>
+            </div>
+
+            <div class="card__body">
+              <p>
+                To design a task management platform that empowers individuals
+                and teams to plan smarter, collaborate seamlessly, and achieve
+                their goals with confidence.
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="card card--primary"
+            style="
+              background: linear-gradient(
+                135deg,
+                var(--color-primary) 0%,
+                var(--color-primary-dark) 100%
+              );
+              backdrop-filter: none;
+              border: none;
+            "
+          >
+            <span class="icon icon--light">
+              <svg class="icon__image">
+                <use href="images/sprite.svg#eye"></use>
+              </svg>
+            </span>
+
+            <div class="card__header">
+              <h3>Our Vision</h3>
+            </div>
+
+            <div class="card__body">
+              <p>
+                To become a trusted productivity platform that transforms the
+                way people organize their work and manage their time.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why We Built ToDoNova -->
+    <section class="section section--white">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-header__title">
+            Why We Built <span class="text-gradient">ToDoNova</span>
+          </h2>
+          <p class="section-header__description">
+            Productivity should feel simple, not stressful. ToDoNova was
+            envisioned to address common challenges faced by students,
+            professionals, freelancers, and teams when managing their daily
+            work.
+          </p>
+        </header>
+
+        <div class="grid grid--1x2">
+          <article class="card card--mute card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image">
+                  <use href="images/sprite.svg#dashboard"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">Information Overload</h3>
+              <p class="block__text">
+                Many productivity tools include countless features that can make
+                task management feel complicated. ToDoNova aims to keep users
+                organized without unnecessary complexity.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--mute card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image">
+                  <use href="images/sprite.svg#grid"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">Better Organization</h3>
+              <p class="block__text">
+                Keeping track of tasks, deadlines, and priorities should be
+                effortless. ToDoNova is designed to bring everything together in
+                one organized workspace.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--mute card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image icon__image--dark">
+                  <use href="images/sprite.svg#collaboration"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">Seamless Collaboration</h3>
+              <p class="block__text">
+                Whether working individually or as part of a team, ToDoNova is
+                planned to bring everything teams need for tracking tasks,
+                sharing progress, and updates simple and efficient.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--mute card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image">
+                  <use href="images/sprite.svg#desktop"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">Designed for Modern Teams</h3>
+              <p class="block__text">
+                Today's work happens across multiple devices and environments.
+                ToDoNova is envisioned to deliver a responsive and consistent
+                experience that supports productivity wherever users are.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div
+          class="card card--mute block block--row"
+          style="align-items: center; margin-top: 4.8rem"
+        >
+          <span class="icon icon--primary">
+            <svg class="icon__image">
+              <use href="images/sprite.svg#rocket"></use>
+            </svg>
+          </span>
+
+          <div>
+            <h4 class="block__title">Looking Ahead</h4>
+            <p class="block__text">
+              This website represents the beginning of ToDoNova's journey. As
+              development continues, our goal is to transform this vision into a
+              complete productivity platform that helps people manage their work
+              with confidence, clarity, and efficiency.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Core Values -->
+    <section class="section section--light">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-header__title">
+            Our Core <span class="text-gradient">Values</span>
+          </h2>
+          <p class="section-header__description">
+            At ToDoNova, every design decision and planned feature is guided by
+            a set of core values. These principles shape our vision for creating
+            a task management platform that is intuitive, reliable, and focused
+            on helping users achieve more with less effort.
+          </p>
+        </header>
+
+        <div class="grid grid--1x3">
+          <article class="card card--light card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image">
+                  <use href="images/sprite.svg#Sparkles"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">Simplicity</h3>
+              <p class="block__text">
+                We believe productivity tools should be easy to understand and
+                enjoyable to use. Every feature is designed with clarity and
+                simplicity in mind.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--light card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image">
+                  <use href="images/sprite.svg#user"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">User-Centered Design</h3>
+              <p class="block__text">
+                Our vision is to create an experience that puts users first. We
+                aim to design interfaces that reduce complexity and make task
+                management effortless.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--light card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image">
+                  <use href="images/sprite.svg#rocket"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">Innovation</h3>
+              <p class="block__text">
+                We continuously explore new ideas and technologies to create
+                smarter and more efficient ways to organize work and improve
+                productivity.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--light card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image">
+                  <use href="images/sprite.svg#collaboration"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">Collaboration</h3>
+              <p class="block__text">
+                Great things are achieved together. ToDoNova is envisioned to
+                support seamless teamwork by making communication, task sharing,
+                and project coordination simple.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--light card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image">
+                  <use href="images/sprite.svg#security"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">Reliability</h3>
+              <p class="block__text">
+                Users should be able to depend on their productivity tools. Our
+                goal is to build a stable and trustworthy platform that supports
+                everyday work with confidence.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--light card--hoverable">
+            <div class="block">
+              <span class="icon icon--primary">
+                <svg class="icon__image">
+                  <use href="images/sprite.svg#continuous"></use>
+                </svg>
+              </span>
+              <h3 class="block__title">Continuous Improvement</h3>
+              <p class="block__text">
+                ToDoNova is an evolving project. We are committed to learning,
+                improving, and refining the platform over time based on user
+                needs and modern productivity trends.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <p class="hero__note" style="text-align: center; margin-top: 4.8rem">
+          "These values represent the foundation of ToDoNova and guide every
+          step of our journey toward building a modern productivity platform for
+          the future."
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title">
+            Our Development <span class="text-gradient">Journey</span>
+          </h2>
+          <p class="section-header__description">
+            Every successful product starts with a vision. Here's a look at our
+            journey so far and what's coming next.
+          </p>
+        </div>
+
+        <ol class="timeline timeline--detailed" role="list">
+          <li class="timeline__item is-completed">
+            <div class="timeline__marker">
+              <span class="timeline__dot">
+                <svg class="timeline__icon" viewBox="0 0 24 24">
+                  <polyline points="4 12 9 17 20 6"></polyline>
+                </svg>
+              </span>
+            </div>
+            <article class="timeline__content card card--mute card--hoverable">
+              <div class="card__header">
+                <div class="timeline__meta">
+                  <span class="timeline__phase">Phase 1</span>
+                  <span class="badge badge--completed">Completed</span>
+                </div>
+                <h3>Research &amp; Planning</h3>
+              </div>
+              <div class="card__body">
+                <p>
+                  The journey began with researching productivity challenges,
+                  understanding user needs, and defining the vision for a modern
+                  task management platform.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <li class="timeline__item is-completed">
+            <div class="timeline__marker">
+              <span class="timeline__dot">
+                <svg class="timeline__icon" viewBox="0 0 24 24">
+                  <polyline points="4 12 9 17 20 6"></polyline>
+                </svg>
+              </span>
+            </div>
+            <article class="timeline__content card card--mute card--hoverable">
+              <div class="card__header">
+                <div class="timeline__meta">
+                  <span class="timeline__phase">Phase 2</span>
+                  <span class="badge badge--completed">Completed</span>
+                </div>
+                <h3>Product Design</h3>
+              </div>
+              <div class="card__body">
+                <p>
+                  Our focus shifted to designing an intuitive user experience,
+                  creating wireframes, and developing a clean, responsive
+                  interface for both desktop and mobile devices.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <li class="timeline__item is-completed">
+            <div class="timeline__marker">
+              <span class="timeline__dot">
+                <svg class="timeline__icon" viewBox="0 0 24 24">
+                  <polyline points="4 12 9 17 20 6"></polyline>
+                </svg>
+              </span>
+            </div>
+            <article class="timeline__content card card--mute card--hoverable">
+              <div class="card__header">
+                <div class="timeline__meta">
+                  <span class="timeline__phase">Phase 3</span>
+                  <span class="badge badge--completed">Completed</span>
+                </div>
+                <h3>Marketing Website</h3>
+              </div>
+              <div class="card__body">
+                <p>
+                  To introduce our vision, we developed the official ToDoNova
+                  website that showcases the product concept, planned features,
+                  and interface previews while the application is still under
+                  development.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <li class="timeline__item is-progress">
+            <div class="timeline__marker">
+              <span class="timeline__dot">
+                <svg class="timeline__icon" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="9"></circle>
+                  <polyline points="12 7 12 12 16 14"></polyline>
+                </svg>
+              </span>
+            </div>
+            <article class="timeline__content card card--mute card--hoverable">
+              <div class="card__header">
+                <div class="timeline__meta">
+                  <span class="timeline__phase">Phase 4</span>
+                  <span class="badge badge--progress">In Progress</span>
+                </div>
+                <h3>Application Development</h3>
+              </div>
+              <div class="card__body">
+                <p>
+                  This is where we are right now: building the core web
+                  application, transforming the concept into a fully functional
+                  productivity platform.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <li class="timeline__item is-planned">
+            <div class="timeline__marker">
+              <span class="timeline__dot">
+                <svg class="timeline__icon" viewBox="0 0 24 24">
+                  <rect x="3" y="5" width="18" height="16" rx="2"></rect>
+                  <line x1="16" y1="3" x2="16" y2="7"></line>
+                  <line x1="8" y1="3" x2="8" y2="7"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+              </span>
+            </div>
+            <article class="timeline__content card card--mute card--hoverable">
+              <div class="card__header">
+                <div class="timeline__meta">
+                  <span class="timeline__phase">Phase 5</span>
+                  <span class="badge badge--planned">Planned</span>
+                </div>
+                <h3>Beta Release</h3>
+              </div>
+              <div class="card__body">
+                <p>
+                  A beta version will allow early users to explore ToDoNova,
+                  test planned features, and help shape the final product before
+                  launch.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <li class="timeline__item is-future">
+            <div class="timeline__marker">
+              <span class="timeline__dot">
+                <svg class="timeline__icon" viewBox="0 0 24 24">
+                  <path
+                    d="M12 2c2.5 2.5 4 6 4 9.5a10 10 0 0 1-.7 3.5H8.7A10 10 0 0 1 8 11.5C8 8 9.5 4.5 12 2z"
+                  ></path>
+                  <circle cx="12" cy="10" r="1.6"></circle>
+                  <path d="M8 16l-2.5 4.5M16 16l2.5 4.5"></path>
+                </svg>
+              </span>
+            </div>
+            <article class="timeline__content card card--mute card--hoverable">
+              <div class="card__header">
+                <div class="timeline__meta">
+                  <span class="timeline__phase">Phase 6</span>
+                  <span class="badge badge--future">Future Goal</span>
+                </div>
+                <h3>Official Launch</h3>
+              </div>
+              <div class="card__body">
+                <p>
+                  Our goal is to officially launch ToDoNova as a reliable and
+                  intuitive productivity platform that empowers individuals and
+                  teams to work smarter every day.
+                </p>
+              </div>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Join the ToDoNova Journey -->
+    <section class="section section--primary">
+      <div
+        class="container grid grid--1x2"
+        style="align-items: center; gap: 4rem"
+      >
+        <!-- Left: message + why follow -->
+        <div>
+          <div class="section-header section-header--left">
+            <h2 class="section-header__title">Join the ToDoNova Journey</h2>
+          </div>
+
+          <p style="color: var(--color-body-light); margin-bottom: 1.6rem">
+            ToDoNova is more than just a task management platform&mdash;it's a
+            vision for making productivity simpler, smarter, and more enjoyable.
+            While we're still building the application, every milestone brings
+            us closer to a tool that empowers individuals and teams to achieve
+            more.
+          </p>
+
+          <p style="color: var(--color-body-light); margin-bottom: 3.2rem">
+            We invite you to explore our concept, follow our progress, and be
+            part of the journey as ToDoNova evolves from an idea into a complete
+            productivity platform.
+          </p>
+
+          <h4 style="color: var(--color-heading-light); margin-bottom: 1.6rem">
+            Why Follow ToDoNova?
+          </h4>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 2.4rem">
+            <div class="check-item" style="color: var(--color-body-light)">
+              <span class="check-item__icon">
+                <svg><use href="images/sprite.svg#eye"></use></svg>
+              </span>
+              <span>Explore Vision</span>
+            </div>
+
+            <div class="check-item" style="color: var(--color-body-light)">
+              <span class="check-item__icon">
+                <svg><use href="images/sprite.svg#smile"></use></svg>
+              </span>
+              <span>Preview UX</span>
+            </div>
+
+            <div class="check-item" style="color: var(--color-body-light)">
+              <span class="check-item__icon">
+                <svg><use href="images/sprite.svg#bell"></use></svg>
+              </span>
+              <span>Stay Updated</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: CTA card -->
+        <article class="card card--light">
+          <div class="card__header">
+            <h3>Ready to Explore More?</h3>
+          </div>
+
+          <div class="card__body">
+            <p>
+              Whether you're curious about ToDoNova's planned features,
+              interested in our progress, or ready to explore how the
+              application is being built, we'd love to have you on this journey.
+            </p>
+
+            <div class="hero__actions">
+              <a href="features.html" class="btn btn--primary btn--block"
+                >View More</a
+              >
+              <a href="contact.html" class="btn btn--outline btn--block"
+                >Contact Us</a
+              >
+            </div>
+
+            <p class="hero__note">
+              "Thank you for visiting ToDoNova. Every great product begins with
+              a single step, and we're glad you're part of the journey!"
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions -->
+    <section class="section section--white">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-header__title">
+            Frequently Asked <span class="text-gradient">Questions</span>
+          </h2>
+          <p class="section-header__description">
+            Have questions about ToDoNova? Here are answers to some of the most
+            common questions about our upcoming platform and this website.
+          </p>
+        </header>
+
+        <div class="collapsible" style="max-width: 80rem; margin-inline: auto">
+          <div class="collapsible__item is-open">
+            <button
+              class="collapsible__header"
+              type="button"
+              aria-expanded="true"
+              aria-controls="about-faq-panel-1"
+            >
+              <span class="collapsible__title"
+                >Is ToDoNova available today?</span
+              >
+              <span class="collapsible__icon">
+                <svg viewBox="0 0 24 24">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="collapsible__panel" id="about-faq-panel-1">
+              <div class="collapsible__content">
+                <p>
+                  Not yet. ToDoNova is currently under active development, and
+                  this website offers a preview of the product's vision, design,
+                  and planned features.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapsible__item">
+            <button
+              class="collapsible__header"
+              type="button"
+              aria-expanded="false"
+              aria-controls="about-faq-panel-2"
+            >
+              <span class="collapsible__title">Can I create an account?</span>
+              <span class="collapsible__icon">
+                <svg viewBox="0 0 24 24">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="collapsible__panel" id="about-faq-panel-2">
+              <div class="collapsible__content">
+                <p>
+                  Not right now. Account creation will open once the beta
+                  release is available.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapsible__item">
+            <button
+              class="collapsible__header"
+              type="button"
+              aria-expanded="false"
+              aria-controls="about-faq-panel-3"
+            >
+              <span class="collapsible__title"
+                >Is the demo a real application?</span
+              >
+              <span class="collapsible__icon">
+                <svg viewBox="0 0 24 24">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="collapsible__panel" id="about-faq-panel-3">
+              <div class="collapsible__content">
+                <p>
+                  The demo previews planned screens and interface concepts; it
+                  does not yet run on live application logic.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapsible__item">
+            <button
+              class="collapsible__header"
+              type="button"
+              aria-expanded="false"
+              aria-controls="about-faq-panel-4"
+            >
+              <span class="collapsible__title"
+                >Will ToDoNova support teams?</span
+              >
+              <span class="collapsible__icon">
+                <svg viewBox="0 0 24 24">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="collapsible__panel" id="about-faq-panel-4">
+              <div class="collapsible__content">
+                <p>
+                  Yes. Team collaboration is planned as part of ToDoNova's
+                  roadmap, including shared workspaces, task assignment, and
+                  progress tracking for teams.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapsible__item">
+            <button
+              class="collapsible__header"
+              type="button"
+              aria-expanded="false"
+              aria-controls="about-faq-panel-5"
+            >
+              <span class="collapsible__title"
+                >Which platforms will ToDoNova support?</span
+              >
+              <span class="collapsible__icon">
+                <svg viewBox="0 0 24 24">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="collapsible__panel" id="about-faq-panel-5">
+              <div class="collapsible__content">
+                <p>
+                  ToDoNova is being designed for a cross-platform experience,
+                  with planned support for desktop, tablet, and mobile devices.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapsible__item">
+            <button
+              class="collapsible__header"
+              type="button"
+              aria-expanded="false"
+              aria-controls="about-faq-panel-6"
+            >
+              <span class="collapsible__title">Can I provide feedback?</span>
+              <span class="collapsible__icon">
+                <svg viewBox="0 0 24 24">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="collapsible__panel" id="about-faq-panel-6">
+              <div class="collapsible__content">
+                <p>
+                  Absolutely. We'd love to hear your thoughts&mdash;reach out
+                  anytime through our Contact page.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="card card--muted"
+          style="
+            align-items: center;
+            text-align: center;
+            max-width: 60rem;
+            margin: 4.8rem auto 0;
+          "
+        >
+          <div class="card__header">
+            <h3>Still Have Questions?</h3>
+          </div>
+          <div class="card__body">
+            <p>
+              If you couldn't find the answer you were looking for, we'd be
+              happy to hear from you.
+            </p>
+          </div>
+          <div class="card__footer">
+            <a href="contact.html" class="btn btn--primary">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <img
+              src="images/logo.png"
+              alt="ToDoNova"
+              class="footer__logo-image"
+            />
+          </a>
+
+          <p class="footer__text">
+            ToDoNova is a modern task management platform currently under
+            development. This website provides an overview of the product's
+            vision, planned features, and user interface as we prepare for the
+            official launch.
+          </p>
+
+          <div class="footer__social">
+            <a
+              href="#"
+              class="icon icon--sm icon--primary"
+              aria-label="Facebook"
+            >
+              <svg class="icon__image icon__image--primary">
+                <use href="images/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+            <a
+              href="#"
+              class="icon icon--sm icon--primary"
+              aria-label="Instagram"
+            >
+              <svg class="icon__image icon__image--primary">
+                <use href="images/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+            <a href="#" class="icon icon--sm icon--primary" aria-label="GitHub">
+              <svg class="icon__image icon__image--primary">
+                <use href="images/sprite.svg#github"></use>
+              </svg>
+            </a>
+            <a
+              href="#"
+              class="icon icon--sm icon--primary"
+              aria-label="LinkedIn"
+            >
+              <svg class="icon__image icon__image--primary">
+                <use href="images/sprite.svg#linkedin"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Accordion on mobile, plain 4-column grid on desktop (see .footer__accordion CSS) -->
+        <div class="collapsible footer__accordion collapsible--independent">
+          <div class="collapsible__item">
+            <button
+              class="collapsible__header"
+              type="button"
+              aria-expanded="false"
+              aria-controls="footer-panel-links"
+            >
+              <span class="collapsible__title">Quick Links</span>
+              <span class="collapsible__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+
+            <div class="collapsible__panel" id="footer-panel-links">
+              <div class="collapsible__content">
+                <nav class="footer__links" aria-label="Quick Links">
+                  <a href="index.html" class="navbar__link">Home</a>
+                  <a href="about.html" class="navbar__link">About</a>
+                  <a href="features.html" class="navbar__link">Features</a>
+                  <a href="pricing.html" class="navbar__link">Pricing</a>
+                  <a href="contact.html" class="navbar__link">Contact</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapsible__item">
+            <button
+              class="collapsible__header"
+              type="button"
+              aria-expanded="false"
+              aria-controls="footer-panel-resources"
+            >
+              <span class="collapsible__title">Resources</span>
+              <span class="collapsible__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+
+            <div class="collapsible__panel" id="footer-panel-resources">
+              <div class="collapsible__content">
+                <nav class="footer__links" aria-label="Resources">
+                  <a href="coming-soon.html" class="navbar__link"
+                    >Coming Soon</a
+                  >
+                  <a href="#" class="navbar__link">FAQ</a>
+                  <a href="#" class="navbar__link">Privacy Policy</a>
+                  <a href="#" class="navbar__link">Terms &amp; Conditions</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapsible__item">
+            <button
+              class="collapsible__header"
+              type="button"
+              aria-expanded="false"
+              aria-controls="footer-panel-contact"
+            >
+              <span class="collapsible__title">Contact Info</span>
+              <span class="collapsible__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+
+            <div class="collapsible__panel" id="footer-panel-contact">
+              <div class="collapsible__content">
+                <div class="footer__contact-list">
+                  <div class="check-item">
+                    <span class="check-item__icon"
+                      ><svg><use href="images/sprite.svg#envolope"></use></svg
+                    ></span>
+                    <a href="mailto:hello@todonova.com" class="navbar__link"
+                      >hello@todonova.com</a
+                    >
+                  </div>
+                  <div class="check-item">
+                    <span class="check-item__icon"
+                      ><svg><use href="images/sprite.svg#phone"></use></svg
+                    ></span>
+                    <span>+94 XX XXX XXXX</span>
+                  </div>
+                  <div class="check-item">
+                    <span class="check-item__icon"
+                      ><svg><use href="images/sprite.svg#location"></use></svg
+                    ></span>
+                    <span>Colombo, Sri Lanka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapsible__item is-open">
+            <button
+              class="collapsible__header"
+              type="button"
+              aria-expanded="true"
+              aria-controls="footer-panel-newsletter"
+            >
+              <span class="collapsible__title">Newsletter</span>
+              <span class="collapsible__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+
+            <div class="collapsible__panel" id="footer-panel-newsletter">
+              <div class="collapsible__content">
+                <p class="footer__text">
+                  Stay informed about ToDoNova's development and upcoming
+                  launches.
+                </p>
+
+                <form class="footer__newsletter">
+                  <input
+                    type="email"
+                    class="input"
+                    placeholder="Enter your email"
+                    aria-label="Email address"
+                  />
+                  <button type="submit" class="btn btn--primary btn--block">
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer__bottom">
+        <p>&copy; 2026 ToDoNova. All rights reserved.</p>
+
+        <div class="footer__legal">
+          <a href="#" class="navbar__link">Privacy Policy</a>
+          <a href="#" class="navbar__link">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/collapcible.js"></script>
+    <script src="js/navbar.js"></script>
+  </body>
+</html>

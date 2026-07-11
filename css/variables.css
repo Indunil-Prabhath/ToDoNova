@@ -1,0 +1,40 @@
+:root {
+  /* Color Palette */
+  /* ========= Brand ========= */
+  --color-primary: #5b58f2;
+  --color-primary-dark: #4946e4;
+  --color-primary-light: #efedff;
+
+  /* ========= Accent ========= */
+  --color-accent: #10b981;
+
+  /* ========= Backgrounds ========= */
+  --color-bg-white: #ffffff;
+  --color-bg-light: #f8f8ff;
+  --color-bg-dark: #111827;
+  --color-bg-primary: #5b58f2;
+
+  /* ========= Surface ========= */
+  --color-surface: #ffffff;
+  --color-surface-dark: #1f2937;
+
+  /* ========= Text ========= */
+  --color-heading: #111827;
+  --color-body: #4b5563;
+  --color-heading-light: #ffffff;
+  --color-body-light: #e7ecf3;
+
+  /* ========= Border ========= */
+  --color-border: #c6ccdbd9;
+  --color-border-dark: rgba(255, 255, 255, 0.12);
+
+  --timeline-line: #e5e7eb;
+  --timeline-completed: #10b981;
+  --timeline-completed-soft: rgba(16, 185, 129, 0.14);
+  --timeline-progress: #f59e0b;
+  --timeline-progress-soft: rgba(245, 158, 11, 0.16);
+  --timeline-planned: #5b58f2;
+  --timeline-planned-soft: #e9e7ff;
+  --timeline-future: #db2777;
+  --timeline-future-soft: #fce7f3;
+}

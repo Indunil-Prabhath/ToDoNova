@@ -1,0 +1,57 @@
+/* Hero */
+.contact-hero {
+  background-color: var(--color-bg-white);
+}
+
+.conatct-badge {
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .conatct-badge {
+    align-self: self-start;
+  }
+}
+/* ===== Contact: "Thank You" next-steps list ===== */
+.next-steps {
+  max-width: 70rem;
+  margin: 4.8rem auto 0;
+  text-align: center;
+}
+
+.next-steps__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-top: 1.6rem;
+  text-align: left;
+}
+
+.next-steps__icon {
+  flex-shrink: 0;
+  width: 4.4rem;
+  height: 4.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+.next-steps__icon svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* ===== Modifier: vertically center mismatched action items ===== */
+.hero__actions--center {
+  align-items: center;
+}
+
+/* messsage */
+.message .section-quote {
+  padding-top: 2rem;
+}
+
+/* info */
